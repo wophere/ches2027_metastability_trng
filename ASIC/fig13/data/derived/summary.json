@@ -1,0 +1,160 @@
+{
+  "capture_count": 10,
+  "bits_per_channel_per_capture": 1000000,
+  "block_size": 1000,
+  "overall_p1": {
+    "ES1": 0.5054502,
+    "ES2": 0.5168279
+  },
+  "per_capture": [
+    {
+      "metadata": "dual_es1_es2_20260926_152344_896.json",
+      "dac_p0": [
+        18,
+        15
+      ],
+      "p1": [
+        0.563835,
+        0.563675
+      ],
+      "zero_lag_ccf_B1000": -0.05737646386325847
+    },
+    {
+      "metadata": "dual_es1_es2_20260926_152428_758.json",
+      "dac_p0": [
+        18,
+        15
+      ],
+      "p1": [
+        0.521576,
+        0.549551
+      ],
+      "zero_lag_ccf_B1000": -0.017817083456757497
+    },
+    {
+      "metadata": "dual_es1_es2_20260926_152659_407.json",
+      "dac_p0": [
+        17,
+        15
+      ],
+      "p1": [
+        0.531988,
+        0.498008
+      ],
+      "zero_lag_ccf_B1000": -0.05339445429139389
+    },
+    {
+      "metadata": "dual_es1_es2_20260926_152709_782.json",
+      "dac_p0": [
+        17,
+        15
+      ],
+      "p1": [
+        0.472033,
+        0.512641
+      ],
+      "zero_lag_ccf_B1000": -0.007284737164505017
+    },
+    {
+      "metadata": "dual_es1_es2_20260926_152821_518.json",
+      "dac_p0": [
+        17,
+        15
+      ],
+      "p1": [
+        0.48313,
+        0.522725
+      ],
+      "zero_lag_ccf_B1000": -0.14605467861119092
+    },
+    {
+      "metadata": "dual_es1_es2_20260926_152848_856.json",
+      "dac_p0": [
+        17,
+        15
+      ],
+      "p1": [
+        0.508661,
+        0.466405
+      ],
+      "zero_lag_ccf_B1000": -0.14551048577455333
+    },
+    {
+      "metadata": "dual_es1_es2_20260926_152935_155.json",
+      "dac_p0": [
+        17,
+        15
+      ],
+      "p1": [
+        0.469249,
+        0.503214
+      ],
+      "zero_lag_ccf_B1000": -0.06082138691681284
+    },
+    {
+      "metadata": "dual_es1_es2_20260926_153000_961.json",
+      "dac_p0": [
+        17,
+        15
+      ],
+      "p1": [
+        0.529028,
+        0.53542
+      ],
+      "zero_lag_ccf_B1000": -0.17169688124313323
+    },
+    {
+      "metadata": "dual_es1_es2_20260926_153024_226.json",
+      "dac_p0": [
+        17,
+        15
+      ],
+      "p1": [
+        0.487893,
+        0.524297
+      ],
+      "zero_lag_ccf_B1000": -0.04334447370367332
+    },
+    {
+      "metadata": "dual_es1_es2_20260926_153159_777.json",
+      "dac_p0": [
+        17,
+        16
+      ],
+      "p1": [
+        0.487109,
+        0.492343
+      ],
+      "zero_lag_ccf_B1000": -0.0011152549271977084
+    }
+  ],
+  "ccf_definition": "Pearson corr(ES1[j], ES2[j+lag]) on the overlapping block means",
+  "zero_lag": {
+    "per_capture": [
+      -0.05737646386325847,
+      -0.017817083456757497,
+      -0.05339445429139389,
+      -0.007284737164505017,
+      -0.14605467861119092,
+      -0.14551048577455333,
+      -0.06082138691681284,
+      -0.17169688124313323,
+      -0.04334447370367332,
+      -0.0011152549271977084
+    ],
+    "mean": -0.07044158999524762,
+    "range": [
+      -0.17169688124313323,
+      -0.0011152549271977084
+    ]
+  },
+  "figure_note": "Panel b displays each record's zero-lag Pearson correlation and their arithmetic mean; no confidence or independence claim is implied.",
+  "outputs": {
+    "png": "fig13_es1_es2_cross_correlation.png",
+    "pdf": "fig13_es1_es2_cross_correlation.pdf",
+    "svg": "fig13_es1_es2_cross_correlation.svg",
+    "tiff": "fig13_es1_es2_cross_correlation.tiff",
+    "block_means_csv": "block_means.csv",
+    "ccf_csv": "cross_correlation.csv"
+  }
+}

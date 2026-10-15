@@ -1,0 +1,29 @@
+{
+  "captured_at": "2026-09-26T15:31:59.802895800+08:00",
+  "es13": 1,
+  "es13_scope_channel": 1,
+  "es13_p0_dac": 17,
+  "es13_p1_dac": 0,
+  "es24": 2,
+  "es24_scope_channel": 2,
+  "es24_p0_dac": 16,
+  "es24_p1_dac": 0,
+  "samples_per_symbol": 20.0,
+  "requested_symbol_count": 1000000,
+  "raw_points_per_channel": 20000000,
+  "bit_encoding": "one byte per bit; values are 0 or 1",
+  "paired_encoding": "one byte per synchronized pair; bit1=ES13, bit0=ES24",
+  "es13_file": "dual_es1_es2_20260926_153159_777_es1.bin",
+  "es24_file": "dual_es1_es2_20260926_153159_777_es2.bin",
+  "paired_file": "dual_es1_es2_20260926_153159_777_paired.bin",
+  "statistics": {
+    "sample_count": 1000000,
+    "count_00": 261570,
+    "count_01": 251321,
+    "count_10": 246087,
+    "count_11": 241022,
+    "p_one_es13": 0.487109,
+    "p_one_es24": 0.492343,
+    "pearson_phi": 0.0047913288164821415
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "analysis_contract": {
+    "acf_center": "arithmetic mean across all 10 captures per rate",
+    "acf_interval": "capture-level percentile bootstrap 95% interval",
+    "fit": "ordinary least squares in log ACF versus log lag",
+    "fit_window": [
+      500,
+      10000
+    ],
+    "acf_censoring": "none; signed plotted bins cover 10-10000 on a symlog y-axis, fit uses positive bins over 500-10000",
+    "non_iid_metric": "capture-level variance inflation at B=4096",
+    "minimum_bias_highlight": "display-only best-balanced counterexample; not used for the ACF estimate",
+    "bootstrap_draws": 20000,
+    "bootstrap_seed": 20260711
+  },
+  "summary": [
+    {
+      "freq": "10M",
+      "case": "10M_dead0_tap",
+      "n_captures": 10,
+      "bits_per_capture": 1000000,
+      "display_lag_window": "10-10000",
+      "fit_lag_window": "500-10000",
+      "fit_bins": 8,
+      "beta": 0.26870383741482334,
+      "beta_ci_low": 0.22123118149924056,
+      "beta_ci_high": 0.327848483964669,
+      "r2_log": 0.9973430938310315,
+      "amplitude": 0.032932249797970645,
+      "valid_beta_bootstraps": 20000,
+      "minimum_bias_run": 5
+    },
+    {
+      "freq": "25M",
+      "case": "25M_dead0_tap",
+      "n_captures": 10,
+      "bits_per_capture": 1000000,
+      "display_lag_window": "10-10000",
+      "fit_lag_window": "500-10000",
+      "fit_bins": 8,
+      "beta": 0.24757545300920086,
+      "beta_ci_low": 0.2184303335358292,
+      "beta_ci_high": 0.27926446547690686,
+      "r2_log": 0.9971641599991771,
+      "amplitude": 0.030505361870769732,
+      "valid_beta_bootstraps": 20000,
+      "minimum_bias_run": 2
+    },
+    {
+      "freq": "50M",
+      "case": "50M_dead0_tap",
+      "n_captures": 10,
+      "bits_per_capture": 1000000,
+      "display_lag_window": "10-10000",
+      "fit_lag_window": "500-10000",
+      "fit_bins": 8,
+      "beta": 0.325224198541835,
+      "beta_ci_low": 0.27415304901856435,
+      "beta_ci_high": 0.3889211491346435,
+      "r2_log": 0.9900091543107243,
+      "amplitude": 0.04432959524833599,
+      "valid_beta_bootstraps": 20000,
+      "minimum_bias_run": 3
+    }
+  ]
+}

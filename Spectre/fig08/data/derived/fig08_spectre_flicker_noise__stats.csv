@@ -1,0 +1,3 @@
+label,path,samples,overall_p1,p1_blocks,p1_mean,p1_std,p1_min,p1_max,acf_lag1
+With flicker noise,data/raw/fig08_spectre_flicker_noise_raw/latch_value_config1.csv,1000000,0.498972,1000,0.498972,0.04583888323246979,0.366,0.649,0.017592864819995536
+Without flicker noise,data/raw/fig08_spectre_flicker_noise_raw/latch_value_config4.csv,1000000,0.49994,1000,0.49994,0.015417146298845332,0.447,0.555,-0.002271016703733713

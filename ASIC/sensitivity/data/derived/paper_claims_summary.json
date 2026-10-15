@@ -1,0 +1,30 @@
+{
+  "corners": 24,
+  "ou_median_absolute_change": 0.0009835177615329371,
+  "spectral_median_increase": 0.2681305259371765,
+  "spectral_increase_all_corners": true,
+  "split_h256_median_absolute_difference": 0.005668367461635848,
+  "h16_gt_h64_gt_h256_all_corners": true,
+  "heldout_points": 144,
+  "heldout_loglog_pearson_r_squared": 0.9403833480648451,
+  "heldout_linear_r2_sse_about_mean": 0.971188865391252,
+  "heldout_median_relative_error": 0.0546818340636779,
+  "heldout_maximum_multiplicative_factor": 1.6200115396156838,
+  "tail_thresholds": [
+    {
+      "coverage": 0.9375,
+      "min": 0.4557029634701435,
+      "max": 0.7336995014323958
+    },
+    {
+      "coverage": 0.99609375,
+      "min": 0.3127813107648666,
+      "max": 0.6101710356458288
+    },
+    {
+      "coverage": 0.9990234375,
+      "min": 0.2653015105917261,
+      "max": 0.5637252607180395
+    }
+  ]
+}
